@@ -7,6 +7,7 @@ In this project, we'll provide practice JavaScript problems to help you better u
 
 * `Fork` this repository.
 * `Clone` your fork.
+* Create a `git` branch named `submission`.
 * Open `./user.json` and add your details there.
 * Open `./practice.js` with your code editor.
 * Open `./index.html` with your browser.
