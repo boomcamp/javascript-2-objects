@@ -29,6 +29,7 @@ console.log(name);
 */
 
 // Code here
+let favoriteThings = {band: 'Neck Deep', food: 'Burger', person: 'Matty Healy', book: 'November 9', movie: 'Kimi No Nawa', holiday: 'New Year\'s Day'};
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the
@@ -36,6 +37,8 @@ console.log(name);
 */
 
 //Code here
+favoriteThings.car = 'Jeep';
+favoriteThings.brand = 'Wrangler';
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
