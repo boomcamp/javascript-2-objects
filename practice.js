@@ -45,14 +45,16 @@ var favoriteThings = {
 */
 
 //Code here
-
+favoriteThings.car = "Beatle";
+favoriteThings.brand = "Nike";
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 ////////// PROBLEM 3 //////////
 
 /*
