@@ -96,7 +96,14 @@ console.log(backPack);
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
-
+var user2 = {
+  name: 'Aodhan',
+  age: 28,
+  pwHash: 'U+Ldlngx2BYQk',
+  email: 'aodhan.hayter@gmail.com',
+  birthday: '11/03/1990',
+  username: 'aodhan.hayter',
+};
 // Do not edit the code above.
 
 /*
@@ -106,6 +113,8 @@ console.log(backPack);
 */
 
 //Code Here
+user2.name = "Aodhan Hayter";
+user2.email = "aodhan@boom.camp"; 
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
