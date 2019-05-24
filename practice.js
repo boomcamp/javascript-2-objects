@@ -98,7 +98,8 @@ var user2 = {
   name -> 'Aodhan Hayter' and email -> 'aodhan@boom.camp'.
   Make that change without modifying the original object code above.
 */
-
+user2.name = 'Aodhan Hayter';
+user2.email = 'aodhan@boom.camp';
 //Code Here
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
