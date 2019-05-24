@@ -31,6 +31,14 @@ var me = {
 */
 
 // Code here
+var favoriteThings = {
+  band: "I belong to the Zoo",
+  food: "Anything", 
+  person: "Anyone", 
+  book: "Everything", 
+  movie: "All", 
+  holiday: "Independence Day"
+}
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the
   value being your favorite car and then another key named 'brand' with the value being your favorite brand.
