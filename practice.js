@@ -101,6 +101,8 @@ var user2 = {
 */
 
 //Code Here
+user2.name = 'Aodhan Hayter';
+user2.email = 'aodhan@boom.camp';
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
