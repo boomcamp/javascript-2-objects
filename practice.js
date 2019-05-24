@@ -17,7 +17,6 @@ var me={
   name: 'Jan Patrick L. Bañares',
   age: 22
 }
-alert(me.name);
 //Code here
 
 ////////// PROBLEM 2 //////////
@@ -38,22 +37,23 @@ var favoriteThings={
   book: 'Harry Potter Series',
   movie: 'Avengers: Endgame',
   holiday: 'Christmas Day'
-}
+};
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the
   value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
-favoriteThings.car='Aventador',
-favoriteThings.brand='Lamborgihni'
+favoriteThings.car='Aventador';
+favoriteThings.brand='Lamborgihni';
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-
+favoriteThings.food='Chicken Nuggets';
+favoriteThings.book='Harry Potter';
 ////////// PROBLEM 3 //////////
 
 /*
@@ -65,7 +65,10 @@ favoriteThings.brand='Lamborgihni'
 */
 
 //Code here
-
+var backPack={};
+var item='firstPocket';
+backPack[item]='chapstick';
+backPack.color='black';
 /*
   After you do the above, alert your entire backPack object.
 */
@@ -79,7 +82,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack);
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
