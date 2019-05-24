@@ -175,3 +175,10 @@ console.log(makePerson('Noel', 'October 21 1998', 'none'));
 */
 
 //Code Here
+function makeCard(cardNumber, expirationDate, securityCode) {
+  return creditCard = {
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityCode: securityCode
+  };
+}
