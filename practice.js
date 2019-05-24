@@ -76,7 +76,7 @@ backPack.color = 'green';
 /*
   After you do the above, alert your entire backPack object.
 */
-//alert(backPack);
+alert(backPack);
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
@@ -124,19 +124,21 @@ var methodCollection = {}
 */
 
 var methodCollection = {
+    hello: 'hello',
     alertHello() {
-        alert('hello');
+        alert(this.hello);
     },
     logHello() {
-        console.log('hello');
+        console.log(this.hello);
     }
-}
+};
 
 /*
   Now call your alertHello and logHello methods.
 */
 
-console.log(methodCollection[alert()], methodCollection[logHello()]);
+methodCollection['alertHello'];
+methodCollection['logHello'];
 
 ////////// PROBLEM 6 //////////
 
@@ -145,7 +147,14 @@ console.log(methodCollection[alert()], methodCollection[logHello()]);
   Return a new object with all of the information that you passed in.
 */
 
-//Code Here
+function makePerson(name, birthday, ssn) {
+    return {
+        name,
+        birthday,
+        ssn,
+    }
+};
+
 
 ////////// PROBLEM 7 //////////
 
@@ -154,4 +163,10 @@ console.log(methodCollection[alert()], methodCollection[logHello()]);
   Return that object so that whenever you invoke makeCard, you get a brand new credit card.
 */
 
-//Code Here
+function makeCard(cardNumber, expirationDate, securityCode) {
+    return {
+        cardNumber,
+        expirationDate,
+        securityCode,
+    }
+}
