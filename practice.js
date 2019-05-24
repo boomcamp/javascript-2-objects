@@ -66,13 +66,16 @@ favoriteThings.book = "Harry Potter";
 */
 
 //Code here
-
+var backPack = {};
+var item = "firstPocket";
+backPack[item] = "chapstick";
+backPack.color = "black";
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+alert(backPack);
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
