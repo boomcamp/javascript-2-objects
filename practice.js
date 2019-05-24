@@ -133,7 +133,7 @@ methodCollection = {
     alert('hello'),
 
   methodCollection = {
-   logHello: function(){
+   logHello: function() {
     console.log('hello');
        }
      }
