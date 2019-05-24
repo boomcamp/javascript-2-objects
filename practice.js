@@ -141,7 +141,13 @@ methodCollection.logHello();
 */
 
 //Code Here
-
+function makePerson(name,birthday,ssn){
+  return {
+    name,
+    birthday,
+    ssn
+  };
+}
 ////////// PROBLEM 7 //////////
 
 /*
