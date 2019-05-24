@@ -156,3 +156,10 @@ function makePerson(name,birthday,ssn){
 */
 
 //Code Here
+function makeCard(cardNumber,expirationDate,securityCode){
+  return creditCard = {
+    cardNumber,
+    expirationDate,
+    securityCode
+  };
+}
