@@ -157,6 +157,15 @@ methodCollection.logHello();
 */
 
 //Code Here
+function makePerson(name, birthday, ssn) {
+  return obj = {
+    name: name,
+    birthday: birthday,
+    ssn: ssn
+  };
+}
+
+console.log(makePerson('Noel', 'October 21 1998', 'none'));
 
 ////////// PROBLEM 7 //////////
 
