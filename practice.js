@@ -114,6 +114,7 @@ user2.email = 'aodhan@boom.camp';
 */
 
 //Code Here
+// let methodCollection = {};
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
@@ -121,6 +122,12 @@ user2.email = 'aodhan@boom.camp';
 */
 
 //Code Here
+// var alertHello = 'hello';
+// var logHello = 'hello';
+
+// function (methodCollection) {
+//   alert(alertHello);
+// }
 
 /*
   Now call your alertHello and logHello methods.
@@ -136,7 +143,9 @@ user2.email = 'aodhan@boom.camp';
 */
 
 //Code Here
-
+function makePerson(ssn) {
+  return {name: 'Aodhan', birthday: '11/03/1990'};
+}
 ////////// PROBLEM 7 //////////
 
 /*
