@@ -34,14 +34,14 @@ alert(me.name);
 */
 
 // Code here
-let favoriteThings = {
-  band: 'Novo Amor',
-  food: 'Pizza',
-  person: 'Person',
-  book: 'Hardy Boys',
-  movie: 'The Fault in our Stars',
-  holiday: 'Christmas'
-}
+// let favoriteThings = {
+//   band: 'Novo Amor',
+//   food: 'Pizza',
+//   person: 'Person',
+//   book: 'Hardy Boys',
+//   movie: 'The Fault in our Stars',
+//   holiday: 'Christmas'
+// }
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the
