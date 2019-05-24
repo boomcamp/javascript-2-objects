@@ -49,8 +49,8 @@ let favoriteThings = {
 */
 
 //Code here
-favoriteThings.car = 'Model X'
-favoriteThings.brand = 'Tesla'
+// favoriteThings.car = 'Model X'
+// favoriteThings.brand = 'Tesla'
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -58,8 +58,8 @@ favoriteThings.brand = 'Tesla'
 */
 
 //Code here
-favoriteThings.food = 'Chicken Nuggets';
-favoriteThings.book  = 'Harry Potter'
+// favoriteThings.food = 'Chicken Nuggets';
+// favoriteThings.book  = 'Harry Potter'
 ////////// PROBLEM 3 //////////
 
 /*
