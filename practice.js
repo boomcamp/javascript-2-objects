@@ -119,7 +119,7 @@ user2.email = 'aodhan@boom.camp';
 
 //Code Here
 let methodCollection = {
-  
+
 }
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
