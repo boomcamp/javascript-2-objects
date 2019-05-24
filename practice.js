@@ -15,11 +15,11 @@
 */
 
 //Code here
- me = {
+ let me = {
    name: 'Diana',
    age: 20,
  };
- console.log(me.name);
+alert(name);
 
 ////////// PROBLEM 2 //////////
 
@@ -32,20 +32,32 @@
 */
 
 // Code here
+let favoriteThings = {
+  band: 'December avenue',
+  food: 'Fried Chicken',
+  person: 'All',
+  book: 'FairyTales',
+  movie: 'Hachiko',
+  holiday: 'New Year', 
+};
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the
   value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
 
+//Code here
+favoriteThings.car = 'Car';
+favoriteThings.brand = 'Brand';
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 ////////// PROBLEM 3 //////////
 
@@ -58,12 +70,18 @@
 */
 
 //Code here
+let backPack = {};
+let item = 'firstPocket';
+backPack["firstPocket"] = 'chapstick';
+backPack.color = 'pink';
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
+alert(backPack);
+
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -72,6 +90,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
+console.log(backPack);
 
 ////////// PROBLEM 4 //////////
 
@@ -93,6 +112,9 @@ var user2 = {
 */
 
 //Code Here
+user2.name = 'Aodhan Hayter';
+user2.email = 'aodhan@boom.camp';
+
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
@@ -104,6 +126,7 @@ var user2 = {
 */
 
 //Code Here
+let methodCollection ={};
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
@@ -111,13 +134,20 @@ var user2 = {
 */
 
 //Code Here
+methodCollection.alertHello=function(){
+  alert('hello');
+};
+methodCollection.logHello=function(){
+  console.log('hello');
+};
 
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
-
+methodCollection['hello'];
+methodCollection['hello'];
 ////////// PROBLEM 6 //////////
 
 /*
@@ -126,6 +156,14 @@ var user2 = {
 */
 
 //Code Here
+function makePerson(name, birthday, ssn){
+  return {
+    name, 
+    birthday,
+    ssn,
+  }
+
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -135,3 +173,11 @@ var user2 = {
 */
 
 //Code Here
+function makeCard (cardNumber, expirationDate, securityCode){
+  return {
+    cardNumber, 
+    expirationDate, 
+    securityCode,
+  }
+
+}
