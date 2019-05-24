@@ -70,7 +70,7 @@ let backPack = {
 
 }
 var item = 'firstPocket';
-backPack['item'] = 'chapstick';
+backPack[item] = 'chapstick';
 backPack.color = 'blue';
 /*
   After you do the above, alert your entire backPack object.
@@ -106,7 +106,7 @@ var user2 = {
 */
 
 //Code Here
-user2.name = 'Aodhna Hayter';
+user2.name = 'Aodhan Hayter';
 user2.email = 'aodhan@boom.camp';
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
@@ -119,7 +119,7 @@ user2.email = 'aodhan@boom.camp';
 
 //Code Here
 let methodCollection = {
-  
+
 }
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
