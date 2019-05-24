@@ -127,13 +127,19 @@ let methodCollection = {
 */
 
 //Code Here
-
+methodCollection.alertHello = function() {
+  alert('hello');
+}
+methodCollection.logHello = function() {
+  console.log('hello');
+}
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
-
+methodCollection.alertHello();
+methodCollection.logHello();
 ////////// PROBLEM 6 //////////
 
 /*
@@ -142,7 +148,13 @@ let methodCollection = {
 */
 
 //Code Here
-
+function makePerson(name, birthday, ssn) {
+  var person = {};
+  person.name = 'Tester';
+  person.birthday = 'Nov 1';
+  person.ssn = '123456789';
+  return person;
+} 
 ////////// PROBLEM 7 //////////
 
 /*
@@ -151,3 +163,10 @@ let methodCollection = {
 */
 
 //Code Here
+function makeCard(cardNumber, expirationDate, securityCode) {
+  var card = {};
+    card.cardNumber = cardNumber;
+    card.expirationDate = expirationDate;
+    card.securityCode = securityCode;
+    return card;
+  }
