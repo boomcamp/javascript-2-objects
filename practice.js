@@ -15,7 +15,8 @@
 */
 
 //Code here
-
+let me = {name: "Jomar", age: 20};
+console.log(me.name);
 ////////// PROBLEM 2 //////////
 
 /*
