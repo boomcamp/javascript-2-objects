@@ -33,6 +33,14 @@ alert(me.name);
 */
 
 // Code here
+let favoriteThings = {
+  band: "Kodaline",
+  food: "Cheesecake",
+  person: "Jon Snow",
+  book: "Isla and the Happily Ever After",
+  movie: "The Killers",
+  holiday: "Memorial Day"
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the
@@ -40,6 +48,8 @@ alert(me.name);
 */
 
 //Code here
+favoriteThings.car = "Fortuner";
+favoriteThings.brand = "Toyota";
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -47,6 +57,8 @@ alert(me.name);
 */
 
 //Code here
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
 ////////// PROBLEM 3 //////////
 
