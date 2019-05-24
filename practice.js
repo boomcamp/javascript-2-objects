@@ -143,9 +143,13 @@ user2.email = 'aodhan@boom.camp';
 */
 
 //Code Here
-function makePerson(ssn) {
-  return {name: 'Aodhan', birthday: '11/03/1990'};
+function makePerson(name, birthday, ssn) {
+  return {name, birthday , ssn };
 }
+
+makePerson('John Paulo Barbin', '081/17/1997', '123');
+
+
 ////////// PROBLEM 7 //////////
 
 /*
@@ -154,3 +158,6 @@ function makePerson(ssn) {
 */
 
 //Code Here
+function makeCard(cardNumber, expirationDate, securityCode) {
+  return {cardNumber, expirationDate, securityCode};
+}
