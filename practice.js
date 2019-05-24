@@ -31,14 +31,22 @@ alert(me.name);
 */
 
 // Code here
-
+let favoriteThings = {
+  band: 'Capenters',
+  food: 'fried chicken',
+  person: 'mother',
+  book: 'Harry Potter',
+  movie: 'Hunter Killer',
+  holiday: 'Christmas',
+}
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the
   value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
-
+  favoriteThings.car = 'Fortuner';
+  favoriteThings.brand = 'Regatta';
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
@@ -57,6 +65,11 @@ alert(me.name);
 */
 
 //Code here
+let backPack = {
+
+}
+var item = 'stringPocket';
+backPack['item'] = 'chapstick';
 
 /*
   After you do the above, alert your entire backPack object.
