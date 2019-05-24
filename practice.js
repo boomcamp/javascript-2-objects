@@ -15,6 +15,11 @@
 */
 
 //Code here
+ me = {
+   name: 'Diana',
+   age: 20,
+ };
+ console.log(me.name);
 
 ////////// PROBLEM 2 //////////
 
