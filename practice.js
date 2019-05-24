@@ -149,6 +149,8 @@ methodCollection  = {
 */
 
 //Code Here
+methodCollection.alertHello();
+methodCollection.logHello();
 
 ////////// PROBLEM 6 //////////
 
@@ -158,6 +160,13 @@ methodCollection  = {
 */
 
 //Code Here
+function makePerson(name, birthday, ssn){
+  return{
+   name, birthday, ssn
+  }
+}
+
+makePerson('Martin Earl', 'Sept. 18, 1997', '123456');
 
 ////////// PROBLEM 7 //////////
 
@@ -167,3 +176,9 @@ methodCollection  = {
 */
 
 //Code Here
+
+function makeCard(cardNumber, expirationDate, securityCode){
+  return{
+    cardNumber, expirationDate, securityCode
+  }
+}
