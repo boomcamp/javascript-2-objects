@@ -16,7 +16,7 @@
 
 //Code here
 let me = {name: 'John Paulo Barbin', age: 21};
-console.log(name);
+alert(me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -48,6 +48,7 @@ favoriteThings.brand = 'Wrangler';
 //Code here
 favoriteThings.food = 'Chicken Nuggets';
 favoriteThings.book = 'Harry Potter';
+
 ////////// PROBLEM 3 //////////
 
 /*
@@ -59,12 +60,17 @@ favoriteThings.book = 'Harry Potter';
 */
 
 //Code here
+let backPack = {};
+var item = 'firstPocket';
 
+backPack[item] = 'chapstick';
 /*
   After you do the above, alert your entire backPack object.
 */
 
+
 //Code here
+alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -73,6 +79,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
+console.log(backPack);
 
 ////////// PROBLEM 4 //////////
 
