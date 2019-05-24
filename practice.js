@@ -19,7 +19,7 @@ let me = {
   name: "Jules Ballaran",
   age: 20,
 };
-console.log(me.name);
+alert(me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -34,9 +34,9 @@ console.log(me.name);
 // Code here
 let favoriteThings = {
   band: "Queen",
-  food: "Any Food",
+  food: 'Chicken Nuggets',
   person: "Kind",
-  book: "Manga",
+  book: 'Harry Potter',
   movie: "John Wick",
   holiday: "New Year",
 };
@@ -78,7 +78,7 @@ backPack.color = 'Black';
 */
 
 //Code here
-//alert(backPack);
+alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -139,8 +139,8 @@ methodCollection.logHello =  function(){
 */
 
 //Code Here
-//methodCollection.alertHello();
-//methodCollection.logtHello();
+methodCollection.alertHello();
+methodCollection.logtHello();
 ////////// PROBLEM 6 //////////
 
 /*
