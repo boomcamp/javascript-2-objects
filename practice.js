@@ -114,7 +114,7 @@ user2.email = 'aodhan@boom.camp';
 */
 
 //Code Here
-// let methodCollection = {};
+let methodCollection = {};
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
@@ -122,12 +122,15 @@ user2.email = 'aodhan@boom.camp';
 */
 
 //Code Here
-// var alertHello = 'hello';
-// var logHello = 'hello';
+methodCollection  = {
+  alertHello(){
+    alert('hello');
+  },
 
-// function (methodCollection) {
-//   alert(alertHello);
-// }
+  logHello(){
+    console.log('hello');
+  }
+}
 
 /*
   Now call your alertHello and logHello methods.
