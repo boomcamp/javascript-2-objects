@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+let me = {
+  name: 'Marvin Banton',
+  age: 21
+}
+alert(me.name);
 ////////// PROBLEM 2 //////////
 
 /*
