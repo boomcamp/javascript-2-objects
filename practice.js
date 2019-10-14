@@ -13,7 +13,9 @@
   Give it a key of name with the value being your name, and another key of age with the value being your age.
   Then alert your name using dot notation.
 */
-
+let me = { name: 'Eric', 
+            age: 21};
+console.log(me.name);
 //Code here
 
 ////////// PROBLEM 2 //////////
@@ -27,21 +29,30 @@
 */
 
 // Code here
-
+let favoriteThings = {band: 'Momoland',  
+                      food: 'girl', 
+                      person: 'her', 
+                      book: 'manga', 
+                      movie: '3 Idiots', 
+                      holiday: 'sembreak'};
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the
   value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
-
+favoriteThings.car = 'Manok na Pula';
+favoriteThings.brand = 'Texas';
+// console.log(favoriteThings.car);
+// console.log(favoriteThings.brand);
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 ////////// PROBLEM 3 //////////
 
 /*
@@ -53,13 +64,18 @@
 */
 
 //Code here
+let backPack = {
 
+}
+var item = 'firstPocket';
+backPack[item] = 'chapstick';
+backPack.color = 'red';
 /*
   After you do the above, alert your entire backPack object.
 */
 
-//Code here
-
+//Code herE
+alert(backPack);
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
@@ -67,7 +83,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack)
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
@@ -88,7 +104,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = 'Aodhan Hayter';
+user2.email = 'aodhan@boom.camp';
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 
@@ -99,26 +116,40 @@ var user2 = {
 */
 
 //Code Here
-
+ let methodCollection = {}
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
 */
 
 //Code Here
-
+methodCollection.alertHello = function()
+{
+  alert('hello')
+}
+methodCollection.logHello = function()
+{
+  console.log('hello')
+}
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
-
+console.log(methodCollection)
 ////////// PROBLEM 6 //////////
 
 /*
   Create a function called makePerson which takes in name, birthday, ssn as its parameters.
   Return a new object with all of the information that you passed in.
 */
+function makePerson(name, birthday, ssn){
+ return{
+  name: name,
+  birthday: birthday,
+  ssn: ssn
+}
+}
 
 //Code Here
 
@@ -130,3 +161,11 @@ var user2 = {
 */
 
 //Code Here
+function makeCard(cardNumber, expirationDate, securityCode)
+{
+  return {
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityCode: securityCode
+  }
+}
