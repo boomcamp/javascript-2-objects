@@ -15,58 +15,73 @@
 */
 
 //Code here
-
+var me = {
+  name: 'Jaymad_Menor',
+  age: 22,
+};
+alert(me.name)
 ////////// PROBLEM 2 //////////
 
 /*
   Make a 'favoriteThings' object that contains the following keys:
 
-    band, food, person, book, movie, holiday
+    band,  food, person, book, movie, holiday
 
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
 // Code here
-
+var favoriteThings={
+  band:'thisband',
+  food:'adobo',
+  person:'family',
+  book:'bible',
+  movie:'slumdunk',
+  holiday:'christmass'
+};
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the
   value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
-
+//Code here   
+favoriteThings.car = "f1";
+favoriteThings.brand = "Ford";
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 ////////// PROBLEM 3 //////////
 
 /*
-  Create an empty Object called backPack.
-  Now, create a variable called 'item' and set it equal to the string 'firstPocket'.
-  Using bracket notation, add a 'firstPocket' key (or property) to backPack, using 'item'.
-  Set the value of that key to 'chapstick'.
-  Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
-*/
+    Create an empty Object called backPack.
+    Now, create a variable called 'item' and set it equal to the string 'firstPocket'.
+    Using bracket notation, add a 'firstPocket' key (or property) to backPack, using 'item'.
+    Set the value of that key to 'chapstick'.
+    Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
+  */
 
 //Code here
 
+var backPack = { };
+var item = 'firstPocket'
+backPack.firstPocket = 'chapstick';
+backPack.color = 'black';
 /*
   After you do the above, alert your entire backPack object.
 */
-
-//Code here
-
+ alert(backPack)
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console.
 */
 
-//Code here
+console.log(backPack)
 
 ////////// PROBLEM 4 //////////
 
@@ -89,6 +104,8 @@ var user2 = {
 
 //Code Here
 
+user2.name ="Aodhan Hayter";
+user2.email ="aodhan@boom.camp";
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 
@@ -99,20 +116,26 @@ var user2 = {
 */
 
 //Code Here
-
+var methodCollection ={}
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
 */
 
 //Code Here
+methodCollection.alertHello = () =>
+{
 
+alert('hello');
+}
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
-
+methodCollection.logHello = ()=>{
+  console.log('hello');
+}
 ////////// PROBLEM 6 //////////
 
 /*
@@ -121,7 +144,15 @@ var user2 = {
 */
 
 //Code Here
-
+function makePerson(name,birthday,ssn){
+  var person={
+   name:name,
+   birthday:birthday,
+   ssn:ssn
+  }
+  return person;
+ }
+ makePerson('jaymard','October 9','222-22222');
 ////////// PROBLEM 7 //////////
 
 /*
@@ -130,3 +161,12 @@ var user2 = {
 */
 
 //Code Here
+function makeCard(cardNumber, expirationDate, securityCode){
+  var creditCard ={
+    cardNumber:'210321213',
+    expirationDate:'10-1-2019',
+    securityCode:'123444',
+  }
+return creditCard;
+}
+makeCard('122121','10-09-2019','1111ss');
