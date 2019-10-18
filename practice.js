@@ -4,6 +4,8 @@
   Failed tests will be indicated by a red X.
 
   You can refresh the page at any time to re-run all the tests.
+
+  IMPORTANT NOTE: use var for declaring variables
 */
 
 ////////// PROBLEM 1 //////////
