@@ -11,7 +11,7 @@
 /*
   Create an object called me.
   Give it a key of name with the value being your name, and another key of age with the value being your age.
-  Then console.log your name using dot notation.
+  Then console log your name using dot notation.
 */
 
 
@@ -74,7 +74,7 @@
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
-Instead, console.log your whole backPack object and then check out the console.
+Instead, console log your whole backPack object and then check out the console.
 */
 
 
