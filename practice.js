@@ -4,6 +4,7 @@
   Failed tests will be indicated by a red X.
 
   You can refresh the page at any time to re-run all the tests.
+  Note: user var for declaring variables
 */
 
 ////////// PROBLEM 1 //////////
@@ -11,7 +12,7 @@
 /*
   Create an object called me.
   Give it a key of name with the value being your name, and another key of age with the value being your age.
-  Then alert your name using dot notation.
+  Then log your name using dot notation.
 */
 
 //Code here
@@ -55,13 +56,13 @@
 //Code here
 
 /*
-  After you do the above, alert your entire backPack object.
+  After you do the above, log your entire backPack object.
 */
 
 //Code here
 
 /*
-You probably noticed that it just alerted [object Object].
+If you use alert, it will show[object Object].
 Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console.
 */
