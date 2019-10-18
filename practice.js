@@ -56,13 +56,13 @@
 //Code here
 
 /*
-  After you do the above, alert your entire backPack object.
+  After you do the above, log your entire backPack object.
 */
 
 //Code here
 
 /*
-You probably noticed that it just alerted [object Object].
+If you use alert, it will show[object Object].
 Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console.
 */
