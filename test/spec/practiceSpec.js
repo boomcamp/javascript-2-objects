@@ -123,19 +123,6 @@ describe('practice.js', function() {
     it('should exist', function() {
       expect(methodCollection).toBeDefined();
     });
-    describe('alertHello', function() {
-      it('should exist', function() {
-        expect(methodCollection.hasOwnProperty('alertHello')).toBe(true);
-      });
-      it('should be a function', function() {
-        expect(methodCollection.alertHello).toEqual(jasmine.any(Function));
-      });
-      it('should alert "hello"', function() {
-        var alert = spyOn(window, 'alert');
-        methodCollection.alertHello();
-        expect(alert).toHaveBeenCalledWith('hello');
-      });
-    });
     describe('logHello', function() {
       it('should exist', function() {
         expect(methodCollection.hasOwnProperty('logHello')).toBe(true);
